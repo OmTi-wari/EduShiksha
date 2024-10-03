@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(120deg, rgb(228, 119, 221) 0%, rgb(203, 152, 239) 100%);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(120deg, rgb(173, 170, 240) 0%, rgb(212, 133, 172) 100%);
+    border-radius: 8px;
+    box-shadow: 0 20px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.contact-info, .contact-form, .social-media {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}

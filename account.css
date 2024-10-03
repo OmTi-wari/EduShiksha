@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #7709ed, #d9e1ed); 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.studentlogin {
+    background-color: rgba(223, 209, 230, 0.9); 
+    padding: 40px; 
+    width: 500px; 
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.2); 
+    border-radius: 8px;
+}
+
+.studentlogin h2 {
+    font-size: 45px;
+    font-weight: bold; 
+    text-align: center;
+    margin-bottom: 18px;
+    font-weight: 50;
+    
+}
+
+.studentlogin p {
+    font-size: 18px;
+    margin: 12px;
+    border-radius: 9px;
+}
+
+.studentlogin input {
+    padding: 15px 10px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.cutie button {
+    padding: 10px;
+    margin-left: 80px;
+    font-size: 13px;
+    margin-bottom: 7px;
+    border-radius: 9px;
+}
+
+#boobs {
+    padding: 10px;
+    border-radius: 50px; 
+    font-size: 15px; 
+    margin-top: 10px; 
+    background-color: rgb(243, 233, 233);
+    
+}
+
+#new{
+    margin-top: 20px;
+}
+
+#btn {
+    background-color: rgb(188, 188, 243);
+    
+}
+
+@media (max-width: 600px) {
+   .studentlogin {
+       width: 90%; 
+       padding: 20px; 
+   }
+
+   .studentlogin h2 {
+       font-size: 28px; 
+   }
+
+   .studentlogin p {
+       font-size: 16px; 
+   }
+}
